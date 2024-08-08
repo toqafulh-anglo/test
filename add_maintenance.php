@@ -32,6 +32,7 @@ $conn->close();
 </head>
 <body>
     <h1>Add New Maintenance Record</h1>
+    <a href="view_maintenance.php">Maintenance List</a>
     <form action="add_maintenance.php" method="post">
         <label for="vehicleID">Vehicle:</label>
         <select id="vehicleID" name="vehicleID" required>

@@ -42,5 +42,7 @@ $conn->close();
         ?>
     </table>
     <a href="add_vehicle.php">Add New Vehicle</a>
+    <a href="add_maintenance.php">Add Maintenance</a>
+    <a href="add_trip.php">Add Trip</a>
 </body>
 </html>

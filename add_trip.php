@@ -33,6 +33,7 @@ $conn->close();
 </head>
 <body>
     <h1>Add New Trip Record</h1>
+    <a href="view_trips.php">Trip List</a>
     <form action="add_trip.php" method="post">
         <label for="vehicleID">Vehicle:</label>
         <select id="vehicleID" name="vehicleID" required>
