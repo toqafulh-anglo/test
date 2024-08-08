@@ -6,9 +6,9 @@ error_reporting(E_ALL);
 
 // Database configuration
 $servername = "localhost";
-$username = "anglo";         #
-$password = "Anglo64!";      #
-$dbname = "vehicles";        #
+$username   = "root";         #
+$password   = "";      #
+$dbname     = "vehicles";        #
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
